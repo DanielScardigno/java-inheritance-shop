@@ -9,9 +9,7 @@ public class Main {
         System.out.println(newSmartphone.getDescrizione());
         System.out.println(newSmartphone.getPrezzoBase());
         System.out.println(newSmartphone.getPrezzoConIva());
-        System.out.println(newSmartphone.getNomeEsteso());
-        System.out.println(newSmartphone.getCodiceIMEI());
-        System.out.println(newSmartphone.getMemoria());
+        System.out.println(newSmartphone);
 
         System.out.println();
         System.out.println("-------------------------"); //spaziatura
@@ -23,10 +21,7 @@ public class Main {
         System.out.println(newTelevisore.getNome());
         System.out.println(newTelevisore.getDescrizione());
         System.out.println(newTelevisore.getPrezzoBase());
-        System.out.println(newTelevisore.getPrezzoConIva());
-        System.out.println(newTelevisore.getNomeEsteso());
-        System.out.println(newTelevisore.getPollici());
-        System.out.println(newTelevisore.isSmart());
+        System.out.println(newTelevisore);
 
         System.out.println();
         System.out.println("-------------------------"); //spaziatura
@@ -39,8 +34,6 @@ public class Main {
         System.out.println(newCuffie.getDescrizione());
         System.out.println(newCuffie.getPrezzoBase());
         System.out.println(newCuffie.getPrezzoConIva());
-        System.out.println(newCuffie.getNomeEsteso());
-        System.out.println(newCuffie.getColore());
-        System.out.println(newCuffie.getConnessione());
+        System.out.println(newCuffie);
     }
 }

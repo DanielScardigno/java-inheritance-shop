@@ -44,8 +44,13 @@ public class Prodotto {
         return prezzoConIvaMessage;
     }
 
-    public String getNomeEsteso() {
-        String nomeEsteso = Integer.toString(codice) + "-" + nome;
-        return "Nome esteso: " + nomeEsteso.replaceAll(" ", "-");
+    public String getNomeProdotto() {
+        return toString();
+    }
+
+    @Override
+    public String toString() {
+        String nomeProdotto = Integer.toString(codice) + "-" + nome;
+        return "Nome Prodotto: " + nomeProdotto.replaceAll(" ", "-");
     }
 }

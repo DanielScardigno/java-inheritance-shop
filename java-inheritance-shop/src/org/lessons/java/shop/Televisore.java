@@ -27,4 +27,9 @@ public class Televisore extends Prodotto {
 
         return "Smart: " + isSmart;
     }
+
+    @Override
+    public String toString() {
+        return super.toString() + "\nPollici: " + pollici + "\n" + isSmart();
+    }
 }

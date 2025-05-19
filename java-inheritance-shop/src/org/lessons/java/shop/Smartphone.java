@@ -20,4 +20,9 @@ public class Smartphone extends Prodotto {
     public String getMemoria() {
         return "Memoria: " + Integer.toString(memoria) + " GB";
     }
+
+    @Override
+    public String toString() {
+        return super.toString() + "\ncodice IMEI: " + codiceIMEI + "\n" + Integer.toString(memoria) + " GB";
+    }
 }
