@@ -35,5 +35,7 @@ public class Main {
         System.out.println(newCuffie.getPrezzoBase());
         System.out.println(newCuffie.getPrezzoConIva());
         System.out.println(newCuffie);
+
+        System.out.println(Prodotto.getCodicePaddato(newCuffie.getCodice()));
     }
 }

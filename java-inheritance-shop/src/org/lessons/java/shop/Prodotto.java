@@ -4,7 +4,7 @@ import java.util.Random;
 
 public class Prodotto {
     
-    private int codice;
+    public int codice;
     private String nome;
     private String descrizione;
     private double prezzo;
@@ -23,6 +23,12 @@ public class Prodotto {
 
     public String getCodice() {
         return "Codice prodotto: " + Integer.toString(codice);
+    }
+
+    public static String getCodicePaddato(String codice) {
+        int codiceTrimmato = Integer.parseInt(codice.replace("Codice prodotto: ", ""));
+        String codicePaddatoStr = String.format("%08d", codiceTrimmato);
+        return codicePaddatoStr;
     }
 
     public String getNome() {
